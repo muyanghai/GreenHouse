@@ -39,14 +39,14 @@
                     <div>
                         <div><b>上一篇：</b>
                             {% if netx_blog %}
-                                <a href="show-{{ netx_blog.pk }}.html" class="article-tag">{{ netx_blog }}</a>
+                                <a href="../show-{{ netx_blog.pk }}.html" class="article-tag">{{ netx_blog }}</a>
                             {% else %}
                                 没有了
                             {% endif %}
                         </div>
                         <div><b>下一篇：</b>
                             {% if previous_blog %}
-                                <a href="show-{{ previous_blog.pk }}.html" class="article-tag">{{ previous_blog }}</a>
+                                <a href="../show-{{ previous_blog.pk }}.html" class="article-tag">{{ previous_blog }}</a>
                             {% else %}
                                 没有了
                             {% endif %}
